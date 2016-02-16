@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#Main {
+  width: 73.5%;
+  height: 100%;
+  margin: 0;
+  padding: 1em;
+  float: left;
+  background-color: #4285F4;
+}
+
+.BoxContiner {
+ float: right;
+ background-color: #E18728;
+}
+
+.box {
+  width: 26%;
+  height: 48%;
+  padding: 1em;
+}
+
+#Box1 {
+  background-color: #FBBC05;
+  margin: 0em 0em 1em 75%;
+}
+
+#Box2 {
+  background-color: #34A853;
+  margin: 1em 0em 0em 75%;
+}
+
+@media screen and (max-width:1299px) {
+  
+}
