@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#Main {
+  width: 73%;
+  height: 100%;
+  margin: 0;
+  padding: 1em;
+  float: left;
+  background-color: #4285F4;
+}
+
+.BoxContiner {
+  float: right;
+ height: 100%;
+ width: 26%;
+ background-color: #E18728;
+}
+
+.box {
+  width: 26%;
+  height: 48%;
+  padding: 1em;
+}
+
+#Box1 {
+  float: none;
+  background-color: #FBBC05;
+  margin: 0em 0em 1em 75%;
+}
+
+#Box2 {
+  float: none;
+  background-color: #34A853;
+  margin: 1em 0em 0em 75%;
+}
+
+@media only screen and (max-width:1199px)
+  {
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    body {
+      float: none !important;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+
+    body {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    #Main {
+      width: 100%;
+      height: 48%;
+      margin: 0 0 1em 0;
+      padding: 1em;
+      background-color: #4285F4;
+    }
+
+    .BoxContiner {
+      height: 48%;
+      width: 100%;
+     background-color: #E18728;
+     border-style: dashed;
+     border-width: thin;
+     border-color: #000;
+     display: inline-block;
+    }
+
+    .box {
+      width: 46%;
+      height: 48%;
+      padding: 1em;
+      margin: 1em;
+      display: inline-block;
+    }
+
+    #Box1 {
+      float: left;
+      background-color: #FBBC05;
+      clear:both;
+    }
+
+    #Box2 {
+      float: right;
+      background-color: #34A853;
+      clear: both;
+    }
+}
